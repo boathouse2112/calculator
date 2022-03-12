@@ -71,6 +71,10 @@ body {
   margin: 3.5vh 0 0 0;
 }
 
+.equalsButtonText {
+  margin: -2vh 0 0 0;
+}
+
 #subtractionButton {
   grid-row: 2;
   grid-column: 1;
@@ -92,7 +96,7 @@ body {
 }
 
 #equalsButton {
-  grid-row: 4 / 6;
+  grid-row: 4;
   grid-column: 4;
 }
 
@@ -139,4 +143,9 @@ body {
 #threeButton {
   grid-row: 5;
   grid-column: 3;
+}
+
+#zeroButton {
+  grid-row: 5;
+  grid-column: 4;
 }
